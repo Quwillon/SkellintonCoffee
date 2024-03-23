@@ -16,8 +16,8 @@ body #menu #the_main_menu {
 	height: 15%;
 	border-bottom: 5px solid #ccbfb3;
 	position: sticky;
-	  top: 0;
-	  z-index: 1;
+	top: 0;
+	z-index: 1;
 }
 
 #the_main_menu {
