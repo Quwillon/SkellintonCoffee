@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	padding: 0%;
+	margin: 0%; 
+}
+
+
+body #menu #the_main_menu {
+	position: relative;
+}
+
+#menu {
+	background-color: antiquewhite;
+	width: 100%;
+	height: 15%;
+	border-bottom: 5px solid #ccbfb3;
+	position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#the_main_menu {
+	height: 2000px;
+	background-color: #896a4d;
+	opacity: 0.8;
+  position: relative;
+}
+
+.logo_field {
+	width: 100%;
+	border-bottom: 1px solid #ccbfb3;
+}
+
+.logo_field .registration_buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
+.logo_field .registration_buttons button:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+.logo_field .registration_buttons button {
+	color: #6d5641;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 4px 4px 4px 4px;
+	font-family: 'Ubuntu';
+	background-color: #fff;
+	font-size: 15px;
+	background-color: antiquewhite;
+}
+
+.logo_field .registration_buttons button:hover {
+	background-color: #6d5641;
+	color: antiquewhite;
+	border: 2px solid #6d5641;
+	border-radius: 10px;
+}
+
+.logo img {
+	width: 60px;
+	height: 60px;
+	background-color: antiquewhite;
+	position: relative;
+	top: -23px;
+	margin-bottom: -23px;
+}
+
+#menu .fast_acces_panel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#menu .fast_acces_panel button {
+	color: #6d5641;
+	border: 0px;
+	font-family: 'Ubuntu';
+	background-color: #fff;
+	position: relative;
+	font-size: 15px;
+	background-color: antiquewhite;
+}
+
+#menu .fast_acces_panel button::before {
+	content: '';
+	width: 100%;
+	height: 1.25px;
+	background-color: #6d5641;
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	transform: scaleX(0);
+	transition: 0.25s;
+}
+
+#menu .fast_acces_panel button:hover::before {
+	transform: scaleX(1);
+	transition: 0.25s;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  position: relative;
+  top: 25px
+}
+
+#the_main_menu object {
+	height: 210px;
+	width: 210px;
+	margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#the_main_menu object img{
+  height: 150px;
+	width: 150px;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  margin-left: 25px;
+}
+
+#the_main_menu object p {
+  font-family: "Ubuntu";
+  padding: 10px 10px 10px 10px;
+}
+
+#the_main_menu object button {
+	color: #6d5641;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 4px 4px 4px 4px;
+	font-family: 'Ubuntu';
+	background-color: #fff;
+	font-size: 15px;
+	background-color: antiquewhite;
+}
+
+#the_main_menu object button:hover {
+  background-color: #eebb8c;
+	color: #3d250f;
+	border: 2px solid #eebb8c;
+	border-radius: 10px;
+}
