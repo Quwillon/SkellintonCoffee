@@ -16,15 +16,15 @@ body #menu #the_main_menu {
 	height: 15%;
 	border-bottom: 5px solid #ccbfb3;
 	position: sticky;
-  top: 0;
-  z-index: 1;
+	  top: 0;
+	  z-index: 1;
 }
 
 #the_main_menu {
 	height: 2000px;
 	background-color: #896a4d;
 	opacity: 0.8;
-  position: relative;
+	position: relative;
 }
 
 .logo_field {
@@ -113,31 +113,31 @@ body #menu #the_main_menu {
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
-  position: relative;
-  top: 25px
+	position: relative;
+	top: 25px
 }
 
 #the_main_menu object {
 	height: 210px;
 	width: 210px;
 	margin-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #the_main_menu object img{
-  height: 150px;
+	height: 150px;
 	width: 150px;
-  border-radius: 50%;
-  display: flex;
-  position: relative;
-  margin-left: 25px;
+	border-radius: 50%;
+	display: flex;
+	position: relative;
+	margin-left: 25px;
 }
 
 #the_main_menu object p {
-  font-family: "Ubuntu";
-  padding: 10px 10px 10px 10px;
+	font-family: "Ubuntu";
+	padding: 10px 10px 10px 10px;
 }
 
 #the_main_menu object button {
@@ -152,7 +152,7 @@ body #menu #the_main_menu {
 }
 
 #the_main_menu object button:hover {
-  background-color: #eebb8c;
+  	background-color: #eebb8c;
 	color: #3d250f;
 	border: 2px solid #eebb8c;
 	border-radius: 10px;
