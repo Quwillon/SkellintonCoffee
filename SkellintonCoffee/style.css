@@ -152,7 +152,7 @@ body #menu #the_main_menu {
 }
 
 #the_main_menu object button:hover {
-  	background-color: #eebb8c;
+ background-color: #eebb8c;
 	color: #3d250f;
 	border: 2px solid #eebb8c;
 	border-radius: 10px;
